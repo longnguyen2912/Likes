@@ -1,0 +1,97 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.network{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.myFeed{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 40px;
+    padding-left: 600px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ProfileImage{
+    width:150px;
+    height: 180px;
+    border-radius: 50%;
+}
+.profileBox{
+    width: 200px;
+    height: fit-content;   
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 400px;
+    justify-content: space-between;
+}
+.box1{
+    height:100px;    
+    padding: 40px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-right: 400px;
+    width: 500px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.box2{
+    height:100px;
+    padding: 40px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-right: 400px;
+    width: 500px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.box3{
+    height:100px;
+    padding: 40px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-right: 400px;
+    width: 500px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.nameLike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottomLine{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.numberLikes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.numLike{
+    margin-right: 40px;
+}
+.fullName{
+    font-size: 30px;
+}
+.like{
+    font-size: 25px;
+    background-color: rgb(249, 187, 72);
+    box-shadow: 5px 5px 5px black;
+}
